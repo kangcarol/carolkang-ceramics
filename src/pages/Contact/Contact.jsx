@@ -6,7 +6,7 @@ function Contact() {
   return (
     <main className={styles.contact}>
       <section>
-        <h1>HELLO!</h1>
+        <h1>HELLO</h1>
         <h2>Please don't hesitate to connect to find out more. </h2>
 
         <article>

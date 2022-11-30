@@ -1,3 +1,17 @@
-body {
-  background-image: none;
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 10% 0 0 0;
 }
+
+.contact span {
+  display: flex;
+  padding: 0 0 0 13%;
+}
+
+.contact p {
+  font-size: 2em;
+  margin: 0 0 0 1%;
+  color: rgb(108, 108, 103);
+}
+
