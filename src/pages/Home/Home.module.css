@@ -1,0 +1,22 @@
+.home {
+  background-image: url('../../../public/studio.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+/* nav {
+  display: none;
+} */
+
+.home img {
+  width: 100%;
+}
+
+.home h1 {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  color: rgb(108, 108, 103);
+  margin: 0 0 0 14%;
+  padding: 3% 0 0 0;
+}

@@ -5,14 +5,19 @@ function NavBar() {
   const location = useLocation()
 
   return (
-    <nav className={styles.NavBar}>
-      <ul>
-        {(location.pathname ==='/') ? '' : <li><Link to='/'>CAROL KANG</Link></li>}
-        <li><Link to='/about'>ABOUT</Link></li>
-        <li><Link to='/collections'>COLLECTIONS</Link></li> 
-        <li><Link to='/contact'>CONTACT</Link></li>
-      </ul>
-    </nav>
+    <header>
+      {(location.pathname ==='/') ?
+        <nav className={styles.NavBar} display='none'/>
+        :
+        <nav className={styles.NavBar}>
+          <ul>
+            <li><Link to='/'>CAROL KANG CERAMICS</Link></li>
+            <li><Link to='/about'>ABOUT</Link></li>
+            <li><Link to='/collections'>COLLECTIONS</Link></li> 
+          </ul>
+        </nav>
+      }
+    </header>
   )
 }
 
