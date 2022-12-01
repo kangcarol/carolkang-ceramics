@@ -1,8 +1,14 @@
 # CAROL KANG CERAMICS
 I created a website to showcase my one of my other interests, ceramics.
+
 <br>
 
-## ![View Here]()
+## [View Here](https://carolkang-ceramics.netlify.app/)
+
+<br>
+
+![landing](/public/p-CAROLKANG-CERAMICS-landing.png)
+![detail](/public/p-CAROLKANG-CERAMICS-detail.png)
 <br>
 
 ## Technologies Used
