@@ -7,7 +7,6 @@
 
 .collections section {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -52,4 +51,17 @@
   font-weight: 300;
   margin: 0;
   width: fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+.collections section {
+  flex-direction: column;
+}
+
+.collections a {
+  width: 80%;
+}
+
 }

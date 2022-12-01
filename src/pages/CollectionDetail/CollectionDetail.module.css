@@ -44,3 +44,19 @@
   padding: 0 0 1.35% 0;
 }
 
+@media only screen and (max-width: 768px) {
+
+  .CollectionDetail img {
+    width: 80%;
+    margin: 3%;
+  }
+
+  .CollectionDetail h2 {
+    font-size: 2em;
+  }
+
+  .CollectionDetail h3 {
+    font-size: 1.2em;
+  }
+
+}

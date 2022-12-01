@@ -26,3 +26,23 @@
 .home li {
   margin: 0 6%;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .home {
+    background-image: url('../../../public/studio-mobile.png');
+  }
+
+  .home div {
+    flex-direction: column;
+  }
+
+  .home h1 {
+    margin: 0 0 0 5%;
+  }
+
+  .home a {
+    color: white;
+    font-weight: 300;
+  }
+}

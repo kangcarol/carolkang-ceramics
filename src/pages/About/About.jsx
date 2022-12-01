@@ -16,12 +16,13 @@ function About() {
             <p>For sculpture and decorative vessels, I work primarily on the wheel, often throwing pieces and combining them into one seamless work.</p>
             <p>Objects that we choose become reflections of our lives. I create tableware that is intended to be interlaced with daily living.</p>
             <p>My studio is in Brooklyn, NY.</p>
-            <hr />
+
             <h6>Please contact me to find out more.</h6>
             <a href="mailto:hello@carolkang.com" target="_blank" rel="noreferrer" alt="Carol Kang email"><span>
               <h6><FontAwesomeIcon icon={faEnvelope}/></h6>
               <h6>Email</h6>
             </span></a>
+            <hr />
           </div>
       </section>
     </main>
