@@ -26,4 +26,17 @@
 .about p {
   font-size: 1.1em;
   margin: 0 0 20px 0;
+  color: rgb(108, 108, 103);
+}
+
+.about span {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.about h6 {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin: 0 1% 0 0;
+  color: rgb(108, 108, 103);
 }

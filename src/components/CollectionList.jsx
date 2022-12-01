@@ -11,6 +11,9 @@ const CollectionList = (props) => {
             collectionImage4={collection.image4}
             collectionImage5={collection.image5}
             collectionImage6={collection.image6}
+            collectionImage7={collection.image7}
+            collectionImage8={collection.image8}
+            collectionImage9={collection.image9}
             collectionTitle={collection.title}
             collectionDescription={collection.description}
             key={idx}
