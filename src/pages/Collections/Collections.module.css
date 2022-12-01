@@ -7,15 +7,21 @@
 
 .collections section {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 70%;
   padding: 2% 0 0 0;
 }
 
-.collections article {
-  width: fit-content;
+.collections div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:fit-content;
+  padding: 5%;
 }
 
 .collections h1 {
@@ -24,8 +30,14 @@
   padding: 6% 0 0 0;
 }
 
+.collections a {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
 .collections img {
-  width: 25%;
+  width: 100%;
   border: 2px solid rgb(196,198,199);
   margin: 1%;
 }
@@ -33,6 +45,6 @@
 .collections h3 {
   font-size: 1.25em;
   font-weight: 300;
-  margin: 1.5% 0 0 0;
+  margin: 0;
   width: fit-content;
 }

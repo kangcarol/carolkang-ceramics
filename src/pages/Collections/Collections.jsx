@@ -6,7 +6,9 @@ function Collections() {
   return (
     <main className={styles.collections}>
       <h1>COLLECTIONS</h1>
-      <CollectionList collections={collections} />
+      <section>
+        <CollectionList collections={collections} />
+      </section>
     </main>
   )
 }

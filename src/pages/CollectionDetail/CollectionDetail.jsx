@@ -27,25 +27,26 @@ const CollectionDetail = () => {
                 alt={collection.title}
               />
 
-              <img
+              {(collection.image3) ? <img
                 src={collection.image3} 
                 alt={collection.title}
-              />
+              /> : ''}
 
-              <img
+
+              {(collection.image4) ? <img
                 src={collection.image4} 
                 alt={collection.title}
-              />
+              /> : ''}
 
-              <img
+              {(collection.image5) ? <img
                 src={collection.image5} 
                 alt={collection.title}
-              />
+              /> : ''}
 
-              <img
+              {(collection.image6) ? <img
                 src={collection.image6} 
                 alt={collection.title}
-              />
+              /> : ''}
 
           </div>
         </section>

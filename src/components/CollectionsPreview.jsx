@@ -6,12 +6,10 @@ const CollectionsPreview = (props) => {
 
   return (
     <>
-      <section id="collection">
+      <Link to={`/collections/${path}`}><div>
         <img src={props.collectionImage1} alt={props.collectionTitle}/>
-        <Link to={`/collections/${path}`}>
-          <h3>{props.collectionTitle}</h3>
-        </Link>
-      </section>
+        <h3>{props.collectionTitle}</h3>
+      </div></Link>
     </>
   )
 }
