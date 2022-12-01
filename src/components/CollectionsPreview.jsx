@@ -1,8 +1,5 @@
 import hyphenateWords from "../../src/utilities/hyphenateWords";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-
 
 const CollectionsPreview = (props) => {
   const path = hyphenateWords(props.collectionTitle)
@@ -10,11 +7,10 @@ const CollectionsPreview = (props) => {
   return (
     <>
       <section id="collection">
-        <img src={props.collectionImage1} alt={props.collectionTitle} />
-          <article>
-            <p>{props.collectionTitle}</p>
-            <Link to={`/collections/${path}`}><span><FontAwesomeIcon icon={faMagnifyingGlass} />See More</span></Link>
-          </article>
+        <img src={props.collectionImage1} alt={props.collectionTitle}/>
+        <Link to={`/collections/${path}`}>
+          <h3>{props.collectionTitle}</h3>
+        </Link>
       </section>
     </>
   )

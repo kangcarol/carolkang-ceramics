@@ -1,6 +1,6 @@
 export const collections = [
   {
-    title: "wave vessels",
+    title: "WAVE VESSELS",
     description: "porcelain, burnished finish",
     image1: '/wave1.png',
     image2: '/wave2.png',
