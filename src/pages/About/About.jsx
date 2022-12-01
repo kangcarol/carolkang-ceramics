@@ -14,7 +14,9 @@ function About() {
             
             <p>For sculpture and decorative vessels, I work primarily on the wheel, often throwing pieces and combining them into one seamless work.</p>
             
-            <p>Objects that we choose become reflections of our lives. The tableware I make is intended to be interlaced with daily living.</p>
+            <p>Objects that we choose become reflections of our lives. I create tableware that is intended to be interlaced with daily living.</p>
+
+            <p>My studio is in Brooklyn, NY.</p>
           </div>
       </section>
     </main>

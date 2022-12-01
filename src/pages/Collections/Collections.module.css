@@ -1,2 +1,13 @@
 .collections {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.collections h1 {
+  font-size: 2.5em;
+}
+
+.collections img {
+  width: 25%;
 }
