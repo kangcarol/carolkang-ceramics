@@ -7,7 +7,7 @@ const CollectionsPreview = (props) => {
   return (
     <>
       <Link to={`/collections/${path}`}><div>
-        <img src={props.collectionImage1} alt={props.collectionTitle}/>
+        <img src={props.collectionImages[0]} alt={props.collectionTitle}/>
         <h3>{props.collectionTitle}</h3>
       </div></Link>
     </>

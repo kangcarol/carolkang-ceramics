@@ -2,43 +2,21 @@ export const collections = [
   {
     title: "FOLDED VESSELS",
     description: "porcelain, burnished finish",
-    image1: '/fold1.png',
-    image2: '/fold2.png',
-    image3: '/fold3.png',
-    image4: '/fold4.png',
-    image5: '/fold5.png',
-    image6: '/fold6.png',
+    images: [ '/fold1.png', '/fold2.png', '/fold3.png', '/fold4.png', '/fold5.png', '/fold6.png']
   },
   {
     title: "VASES",
     description: "organic forms",
-    image1: '/vase1.png',
-    image2: '/vase2.png',
-    image3: '/vase3.png',
-    image4: '/vase4.png',
-    image5: '/vase5.png',
+    images: ['/vase1.png','/vase2.png','/vase3.png','/vase4.png','/vase5.png']
   },
   {
     title: "TABLEWARE",
     description: "made for daily living",
-    image1: '/tableware1.png',
-    image2: '/tableware2.png',
-    image3: '/tableware3.png',
-    image4: '/tableware4.png',
-    image5: '/tableware5.png',
-    image6: '/tableware6.png',
+    images: ['/tableware1.png','/tableware2.png','/tableware3.png','/tableware4.png','/tableware5.png','/tableware6.png']
   },
   {
     title: "RIBBON VESSELS",
     description: "ribbons of clay",
-    image1: '/ribbon1.png',
-    image2: '/ribbon2.png',
-    image3: '/ribbon3.png',
-    image4: '/ribbon4.png',
-    image5: '/ribbon5.png',
-    image6: '/ribbon6.png',
-    image7: '/ribbon7.png',
-    image8: '/ribbon8.png',
-    image9: '/ribbon9.png',
+    images: ['/ribbon1.png','/ribbon2.png','/ribbon3.png','/ribbon4.png','/ribbon5.png','/ribbon6.png','/ribbon7.png','/ribbon8.png','/ribbon9.png']
   },
 ]
