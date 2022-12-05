@@ -4,6 +4,12 @@
   padding: 10% 0 0 0;
 }
 
+.contact img {
+  width: 15%;
+  margin: 0 2% 2% 0;
+  border: 2px solid rgb(196,198,199);
+}
+
 .contact section {
   display: flex;
   justify-content: flex-start;
@@ -25,7 +31,8 @@
 }
 
 .contact p {
-  font-size: 2em;
+  font-size: 1.75em;
+  font-weight: 400;
   margin: 0 0 0 1%;
   color: rgb(108, 108, 103);
 }

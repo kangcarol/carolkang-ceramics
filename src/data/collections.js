@@ -16,7 +16,7 @@ export const collections = [
   },
   {
     title: "RIBBON VESSELS",
-    description: "ribbons of clay",
+    description: "porcelain, matte white glaze",
     images: ['/ribbon1.png','/ribbon2.png','/ribbon3.png','/ribbon4.png','/ribbon5.png','/ribbon6.png','/ribbon7.png','/ribbon8.png','/ribbon9.png']
   },
 ]
