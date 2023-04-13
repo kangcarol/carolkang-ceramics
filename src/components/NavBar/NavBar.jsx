@@ -14,7 +14,7 @@ function NavBar() {
             <li><Link to='/'>CAROL KANG CERAMICS</Link></li>
             <li><Link to='/collections'>COLLECTIONS</Link></li> 
             <li><Link to='/about'>ABOUT</Link></li>
-            <li><Link to='/contact'>CONTACT</Link></li> 
+            {/* <li><Link to='/contact'>CONTACT</Link></li>  */}
           </ul>
         </nav>
       }
